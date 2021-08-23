@@ -88,7 +88,8 @@ p, li{
 }
 .blog-item-wrapper{
     position: relative;
-    margin-bottom: 50px;
+
+    margin: 5%;
 
     
 }
