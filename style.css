@@ -116,6 +116,7 @@ p, li{
 .caption-text{
     position: relative;
     text-decoration: none;
+    word-spacing: 5px;
     text-align: center;
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -200,18 +201,31 @@ p, li{
 }
 
 .one-img div{
-    height: 533px;
+    height: 700px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border: 2px solid #484848;
-    width: 800px;
-    justify-self:left;
+    width: 1000px;
+    justify-self:center;
 }
 .two-imgs{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 38px;
+}
+.two-imgs-vertical{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 38px;
+}
+.two-imgs-vertical div{
+    height: 750px;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #484848;
 }
 .one-img{
     display: grid;
