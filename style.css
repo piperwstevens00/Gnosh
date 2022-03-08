@@ -42,7 +42,9 @@ p, li{
 }
 
 
-
+.left-side{
+    padding-left: 5px;
+}
 .left-side-button{
     color: #484848;
     position: fixed;
