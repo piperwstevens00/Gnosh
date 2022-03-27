@@ -21,6 +21,10 @@ a{
     color: #484848;
     text-decoration: none;
 }
+a a:hover{
+    color: white
+}
+
 h2{
     font-family: 'Syne', sans-serif;
     font-weight: bold;
@@ -139,14 +143,21 @@ p, li{
     padding: 38px;
 }
 .about-img-wrapper{
-    width: 50%;
+     /*width: 50%;
     border-radius: 50% ;
-    background-size: cover;
+   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: 2px solid #484848;
+    border: 2px solid #484848;*/
     justify-self: center;
 }
+.circular--square{ 
+    border-radius: 50%;
+    width: 60%;
+    border: 2px solid #484848;
+    justify-self: center;
+ }
+
 .about-caption{
     padding: 5px;
     width: 70%;
@@ -197,6 +208,12 @@ p, li{
 }
 .source-link a:hover{
     color: gray;
+}
+.paragraph-link{
+    font-style: italic;
+}
+.paragraph-link a:hover{
+    color: #e4f3e3;
 }
 
 .one-img div{
