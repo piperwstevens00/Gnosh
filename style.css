@@ -212,9 +212,6 @@ p, li{
 .paragraph-link{
     font-style: italic;
 }
-.paragraph-link a:hover{
-    color: #e4f3e3;
-}
 
 .one-img div{
     height: 700px;
