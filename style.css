@@ -58,7 +58,7 @@ p, li{
 }
 
 .left-side-button:hover{
-    background: repeating-linear-gradient(45deg, #ff9cee 0%, #ffb5e8 6%, #ffccf9 10%, #ffffd1 20%, #ace7ff 30%, #c5a3ff 40%, #ff9cee 52.5%, #ff85e8 60%, #fff5ba 70%, #c4faf8 80%, #ecd4ff 90%, #aff8d8);
+    background: repeating-linear-gradient(45deg, #ff9cee 0%, #ffb5e8 6%, #ffccf9 10%, #ffffd1 20%, #ace7ff 30%, #c5a3ff 40%, #ff9cee 52.5%, #ff85e8 60%, #fff5ba 70%, #c4fadb 80%, #ecd4ff 90%, #aff8d8);
 }
 .right-side{
     display: flex;
@@ -316,3 +316,86 @@ p, li{
     padding: 5px;
     background: #ffb5e8;;
 }
+
+
+/*-------- Recipe Index Styles --------*/
+.recipe-category{
+    padding-left: 20%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.typing-animation {
+    width: 10ch;
+    animation: typing 2s steps(20);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #484848;
+    font-size: 2em;
+    -webkit-text-stroke:.5px #484848;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    20% {
+      border-color: transparent
+    }
+  }
+  .cookie-recipe-link{
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top:10px;
+}
+.cookie-recipe-link:hover {
+    background: #ff9cee;
+    color: #e4f3e3;
+    width: fit-content;
+}
+.cake-recipe-link{
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top:10px;
+}
+.cake-recipe-link:hover {
+    background: #ace7ff;
+    color: #e4f3e3;
+    width: fit-content;
+}
+.pastry-recipe-link{
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top:10px;
+}
+.pastry-recipe-link:hover {
+    background: #c5a3ff;
+    color: #e4f3e3;
+    width: fit-content;
+}
+.bread-recipe-link{
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top:10px;
+}
+.bread-recipe-link:hover {
+    background: #39b781;
+    color: #e4f3e3;
+    width: fit-content;
+}
+.index-recipe-title{
+    margin: 10px;
+}
+
