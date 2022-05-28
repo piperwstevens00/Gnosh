@@ -325,20 +325,10 @@ p, li{
     padding-top: 1%;
     padding-bottom: 5%;
 }
-.typing-animation {
-    width: 10ch;
-    animation: typing 2s steps(20);
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 1px solid #484848;
-    font-size: 2em;
-    -webkit-text-stroke:.5px #484848;
-    
-  }
-  
+
   @keyframes typing {
     from {
-      width: 0
+      width: 0;
     }
   }
       
@@ -346,6 +336,16 @@ p, li{
     20% {
       border-color: transparent
     }
+  }
+  .typing-animation {
+    width: 10ch;
+    animation: typing 2s steps(15);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #484848;
+    font-size: 2em;
+    -webkit-text-stroke:.5px #484848;
+    
   }
   .cookie-recipe-link{
     width: fit-content;
